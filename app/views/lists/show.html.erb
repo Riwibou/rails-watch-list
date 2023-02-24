@@ -1,0 +1,5 @@
+<h2><%= @list.name %></h2>
+<%= simple_form_for(article) do |f| %>
+  <%= f.input :photo, as: :file %>
+  <%= f.input :name %>
+<% end %>
